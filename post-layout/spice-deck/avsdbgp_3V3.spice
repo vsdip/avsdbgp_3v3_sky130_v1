@@ -1,0 +1,57 @@
+* SPICE3 file created from avsdbgp_3V3.ext - technology: sky130A
+
+.option scale=5000u
+
+X0 F GND sky130_fd_pr__pnp_05v5_W3p40L3p40_0/c_153_607# sky130_fd_pr__pnp_05v0 area=960
+X1 C VbiasN VbiasP GND sky130_fd_pr__nfet_g5v0d10v5 w=3000 l=1000
+X2 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_1/c_153_607# sky130_fd_pr__pnp_05v0 area=6.39618e+08
+X3 GND I VbiasP GND sky130_fd_pr__nfet_g5v0d10v5 w=600 l=200
+X4 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_3/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X5 G VbiasN VbiasN GND sky130_fd_pr__nfet_g5v0d10v5 w=3000 l=1000
+X6 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_2/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X7 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_4/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X8 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_5/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X9 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_6/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X10 GND VbiasN I GND sky130_fd_pr__nfet_g5v0d10v5 w=8400 l=1200
+X11 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_7/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X12 A GND sky130_fd_pr__pnp_05v5_W3p40L3p40_8/c_153_607# sky130_fd_pr__pnp_05v0 area=0
+X13 J GND sky130_fd_pr__pnp_05v5_W3p40L3p40_9/c_153_607# sky130_fd_pr__pnp_05v0 area=638460
+X14 VDD VbiasP VbiasN VDD sky130_fd_pr__pfet_g5v0d10v5 w=3000 l=1000
+X15 VDD VbiasP VbiasP VDD sky130_fd_pr__pfet_g5v0d10v5 w=3000 l=1000
+X16 VDD VbiasP E VDD sky130_fd_pr__pfet_g5v0d10v5 w=3000 l=1000
+X17 VDD I I VDD sky130_fd_pr__pfet_g5v0d10v5 w=100 l=12000
+X18 G en F GND sky130_fd_pr__nfet_g5v0d10v5 w=2400 l=1000
+X19 C en B GND sky130_fd_pr__nfet_g5v0d10v5 w=2400 l=1000
+X20 Vbgp en E GND sky130_fd_pr__nfet_g5v0d10v5 w=2400 l=1000
+X21 A B GND sky130_fd_pr__res_xhigh_po w=70 l=1750
+X22 Vbgp H GND sky130_fd_pr__res_xhigh_po w=70 l=8102
+X23 J H GND sky130_fd_pr__res_xhigh_po w=70 l=8102
+C0 VbiasN VDD 0.00fF
+C1 B C 0.06fF
+C2 J A 0.02fF
+C3 E C 0.15fF
+C4 B Vbgp 0.04fF
+C5 I VDD 0.01fF
+C6 J Vbgp 0.14fF
+C7 en G 0.58fF
+C8 VbiasN VbiasP 0.82fF
+C9 en C 0.58fF
+C10 I VbiasP 0.02fF
+C11 VbiasP VDD 1.31fF
+C12 B E 0.06fF
+C13 A Vbgp 0.89fF
+C14 A F 0.09fF
+C15 B en 1.32fF
+C16 en E 0.58fF
+C17 en VbiasN 0.23fF
+C18 I VbiasN 0.01fF
+C19 E VDD 0.00fF
+C20 en GND 10.75fF
+C21 H GND 0.33fF
+C22 VbiasP GND 6.01fF
+C23 Vbgp GND 0.47fF
+C24 I GND 8.83fF
+C25 VDD GND 59.51fF
+C26 J GND 1.65fF
+C27 A GND 3.71fF
+C28 F GND 1.55fF

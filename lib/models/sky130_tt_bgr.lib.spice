@@ -1,0 +1,41 @@
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+******* SkyWater sky130 model library *********
+** Original library file edited to include only models that are
+** required to run bandgap reference circuit design in this git repository
+
+* Typical corner (tt)
+.lib tt
+* MOSFET
+.include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.spice"
+.include "../cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice"
+.include "../cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__tt.corner.spice"
+.include "corners/tt/nonfet.spice"
+* Mismatch parameters
+.include "../cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice"
+.include "../cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice"
+.include "../cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice"
+* Resistor/Capacitor
+.include "r+c/res_typical__cap_typical.spice"
+.include "r+c/res_typical__cap_typical__lin.spice"
+* Special cells
+*.include "corners/tt/specialized_cells.spice"
+* All models
+.include "all.spice"
+* Corner
+*.include "corners/tt/rf.spice"
+* PnP Transistor
+.include "../cells/pnp_05v5/sky130_fd_pr__pnp_05v5_W3p40L3p40.model.spice"
+.endl

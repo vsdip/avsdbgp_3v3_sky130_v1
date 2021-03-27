@@ -1,0 +1,1 @@
+This folder contains only models and cells that are used in the bandgap design. All models and cells are taken from sky130_fd_pr library. Please check [link](https://foss-eda-tools.googlesource.com/skywater-pdk/libs/sky130_fd_pr) to get the complete sky130_fd_pr library.
